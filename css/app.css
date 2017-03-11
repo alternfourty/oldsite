@@ -1,0 +1,74 @@
+body {
+  background-color: #444444;
+  font-family: 'Jura', sans-serif;
+}
+
+#nav a {
+  font-weight: 500;
+  font-family: 'Jura' , sans-serif;
+}
+
+.logo {
+  width: auto;
+  height: 38.38px;
+}
+
+.mybutton {
+  color: #FFF;
+  background: none;
+  transition: 0.5s;
+}
+
+#nav li:nth-child(3) a {
+  color:#222;
+  background: #ffae00;
+}
+
+#nav li:nth-child(3) a:hover {
+  color:#FFF;
+  background: #000711;
+  transition: 0.2s;
+}
+
+.container {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 2em;
+  font-family: 'Russo One' , sans-serif;
+}
+h3 {
+  color: #FFF;
+  font-size: 1em;
+  font-family: 'Jura' , sans-serif;
+}
+
+.mybutton:hover {
+  color: #FFF;
+  background: #000711;
+  transition: 0.2s;
+}
+
+#main {
+  position: absolute;
+}
+
+#first {
+  background-color: rgba(0, 0, 0, 0.21);
+}
+
+#second {
+  background:
+linear-gradient(135deg, rgba(0, 0, 0, 0) 22px, rgba(0, 0, 0, 0.28) 22px, rgba(0, 0, 0, 0.28) 24px, transparent 24px, transparent 67px, rgba(0, 0, 0, 0.28) 67px, rgba(0, 0, 0, 0.28) 69px, transparent 69px),
+linear-gradient(225deg, rgba(0, 0, 0, 0) 22px, rgba(0, 0, 0, 0.28) 22px, rgba(0, 0, 0, 0.28) 24px, transparent 24px, transparent 67px, rgba(0, 0, 0, 0.28) 67px, rgba(0, 0, 0, 0.28) 69px, transparent 69px)0 64px;
+background-color:rgba(0, 0, 0, 0);
+background-size: 64px 128px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.28);
+
+}
+
+#nav a {
+}
