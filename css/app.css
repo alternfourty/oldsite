@@ -3,9 +3,32 @@ body {
   font-family: 'Jura', sans-serif;
 }
 
-#nav a {
-  font-weight: 500;
-  font-family: 'Jura' , sans-serif;
+body::after {
+  content: "";
+  background: url("../images/hbg.jpg") fixed center;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#main {
+  position: absolute;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 2em;
+  font-family: 'Russo One' , sans-serif;
+}
+
+/*first*/
+
+#first {
+  background-color: rgba(0, 0, 0, 0.21);
 }
 
 .logo {
@@ -30,19 +53,8 @@ body {
   transition: 0.2s;
 }
 
-.container {
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-
-h1 {
-  color: #FFF;
-  font-size: 2em;
-  font-family: 'Russo One' , sans-serif;
-}
-#second h3 {
-  color: #FFF;
-  font-size: 1em;
+#nav a {
+  font-weight: 500;
   font-family: 'Jura' , sans-serif;
 }
 
@@ -52,49 +64,83 @@ h1 {
   transition: 0.2s;
 }
 
-#main {
-  position: absolute;
-}
-
-#first {
-  background-color: rgba(0, 0, 0, 0.21);
-}
+/*second*/
 
 #second {
-  background:
+  /*background:
   linear-gradient(135deg, rgba(0, 0, 0, 0) 22px, rgba(0, 0, 0, 0.28) 22px, rgba(0, 0, 0, 0.28) 24px, transparent 24px, transparent 67px, rgba(0, 0, 0, 0.28) 67px, rgba(0, 0, 0, 0.28) 69px, transparent 69px),
   linear-gradient(225deg, rgba(0, 0, 0, 0) 22px, rgba(0, 0, 0, 0.28) 22px, rgba(0, 0, 0, 0.28) 24px, transparent 24px, transparent 67px, rgba(0, 0, 0, 0.28) 67px, rgba(0, 0, 0, 0.28) 69px, transparent 69px)0 64px;
   background-color: rgba(0, 0, 0, 0);
   background-size: 64px 128px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.28);
+  */
 }
 
+.container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#second h3 {
+  color: #FFF;
+  font-size: 1em;
+  font-family: 'Jura' , sans-serif;
+}
+
+/*Third*/
+
 #third {
-  padding-top: 50px;
+  padding-top: 20px;
   background: #FFF;
+  padding-bottom: 20px;
 }
 
 #third h2 {
   text-align: center;
-  color: #111;
+  color: #222;
   font-size: 1.5em;
   font-family: 'Jura' , sans-serif;
   padding-top: 10px;
 }
 
 #third h3 {
-  color: #111;
+  color: #222;
   font-size: 1em;
   font-family: 'Jura' , sans-serif;
 }
 
+.service {
+  border:2px dashed rgba(117, 117, 117, 0.24);
+  margin: 0 10px 0 10px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.service:hover {
+  transition: 0.3s;
+  border: 2px solid rgba(235, 160, 0, 1);
+}
+
+#third .service:hover h2 {
+  color: rgba(235, 160, 0, 1);
+  transition: 0.3s;
+}
+
+/*fourth*/
+
+#fourth {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background: #FFF;
+}
+
+#contact {
+  font-size: 1.8em;
+}
 
 .rowicons {
   width: 128px;
   height: auto;
   display: block;
   margin: 0 auto;
-}
-
-#nav a {
 }
